@@ -34,6 +34,7 @@ impl Default for NeoraInstaller {
 				],
 				dash_color: [0.0, 0.0, 0.0].into(),
 				current_step: 0,
+				mode: neora_core::progress_step::Mode::Vertical,
 			},
 		}
 	}

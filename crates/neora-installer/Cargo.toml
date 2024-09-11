@@ -1,0 +1,9 @@
+[package]
+name = "neora-installer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { workspace = true, features = ["advanced", "canvas", "tokio"] }
+neora-core = { path = "../neora-core" }
+tokio = { version = "1.40.0", features = ["full"] }

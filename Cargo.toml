@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.dependencies]
+# TODO: use upstream git branch when https://github.com/iced-rs/iced/pull/2510 is merged
+iced = { path = "../iced" }
